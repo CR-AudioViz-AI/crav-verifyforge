@@ -121,7 +121,7 @@ export async function executeTests(submission: TestSubmission): Promise<TestResu
     };
 
   } catch (error: unknown) {
-    logError(\'Test execution error:\', error);
+    logError('Test execution error:', error);
     
     await supabase
       .from('test_submissions')
