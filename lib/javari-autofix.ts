@@ -117,7 +117,7 @@ export class JavariAutoFix {
       };
 
     } catch (error: unknown) {
-      logError(\'Fix generation error:\', error);
+      logError('Fix generation error:', error);
       
       return {
         issue_id: issue.id,
